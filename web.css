@@ -1,0 +1,295 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#navegation-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar-brand img
+{
+    height: 70px;
+    padding-left: 30px;
+}
+.navbar-nav li 
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+} 
+#navegation-bar ul li a:hover
+{
+	color: red!important;
+}
+.navbar
+{
+	background: #fff;
+}
+.navbar-toggler
+{
+	border: none!important;
+}
+.nav-link
+{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+/*--slider---*/
+#slider
+{
+	width: 100%;
+}
+.carousel-caption
+{
+	top: 60%;
+	transform: translateY(-50%);
+	bottom: initial!important;
+}
+.carousel-item{
+	height:550px;
+}
+.carousel-caption h5
+{
+	color: white;
+	font-size: 42px;
+}
+.ontext
+{
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+
+}
+/*-------About---------*/
+#about
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+#about .btn
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.about-content
+{
+	padding-top: 20px;
+}
+#Services
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(girly.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#Services h1
+{
+	text-align: center;
+	color: #efefef !important;
+	padding-bottom: 10px;
+}
+#Services h1::after
+{
+	 content: '';
+	 background:#efefef ;
+	 display: block;
+	 height: 3px;
+	 width: 170px;
+	 margin:20px auto 5px;  
+}
+.Services
+{
+margin-top: 40px;
+}
+.icon
+{
+	font-size: 40px;
+	margin: 20px auto;
+	padding: 20px;
+	height: 80px;
+	width: 80px;
+	border: 1px solid #fff;
+}
+#Services p
+{
+font-size: 14px;
+margin-top: 20px;
+color: #ccc;
+}
+.Services .col-md-3:hover
+{
+	background: #007bff;
+	cursor: pointer;
+	transition: 0.7s;
+}
+/**-----products-----*/
+#products
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+h1
+{
+	text-align: center;
+	color: #555 !important;
+	padding-bottom: 10px;
+}
+h1::after
+{
+	content: '';
+	background:#007bff;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+.profile-pic
+{
+	margin-top: 25px;
+}
+.profile-pic .img-box
+{
+	opacity: 1;
+	display: block;
+	position: relative;
+}
+.profile-pic .img-box img
+{
+	 filter:sepia(0);
+}
+.profile-pic .img-box img:hover
+{
+	 filter:sepia(1);
+}
+.profile-pic h3
+{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 15px;
+	color: #007bff !important;
+}
+.profile-pic h5
+{
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+#products .fa
+{
+	height: 25px;
+	width: 25px;
+	color: #007bff !important;
+	background: #fff;
+	padding: 4px;
+	border-radius: 50%;
+}
+.img-box ul
+{
+	padding: 15px 0;
+	position: absolute;z-index: 2;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	opacity: 0;
+}
+.img-box ul li
+{
+	padding: 5px;
+	display: inline-block;
+}
+.img-box:hover ul
+{
+	opacity: 1;
+}
+.img-box ul,.img-box ul li
+{
+	transition: 0.5s;
+}
+/*---Contact-----*/
+#promo
+{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(online5.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 100px;
+	font-family: sans-serif;
+	font-size: 38px;
+}
+.contact-details
+{
+	color: blue;
+	font-size: 16px;	
+}
+ /*contact.html page-----*/
+
+input[type=text],[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.contact-design {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+#contact /*action.html page-----*/
+{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(thanks.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 250px;
+	font-family: sans-serif;
+	font-size: 38px;
+}
+#footer
+{
+	background: #333;
+	color: #fff;
+	padding: 12px;
+}
+.fa-heart-o
+{
+	margin: 3px;
+	color: red;
+}
